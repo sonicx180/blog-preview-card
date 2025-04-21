@@ -1,0 +1,68 @@
+/* Import the 'Figtree' font */
+@font-face {
+	font-family: 'Figtree';
+	src: url('/assets/fonts/static/Figtree-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Figtree';
+	src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+	font-weight: bold;
+}
+
+/* Important variables */
+
+:root {
+	--primary-grey: hsl(0, 0%, 7%);
+	--secondary-grey: hsl(0, 0%, 42%);
+	--color-ylw: hsl(47, 88%, 63%);
+	--ft-size: 16px;
+}
+
+/* Setting default stuffs */
+
+* {
+	font-family: 'Figtree';
+	color: var(--primary-grey);
+}
+
+/* Utilizing Flexbox to help organize the page */
+body {
+	background-color: var(--color-ylw);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100dvh;
+	overflow-y: hidden;
+}
+
+/* Color & font situation */
+h1,
+h4,
+.tag {
+	font-weight: bold;
+}
+p {
+	color: var(--secondary-grey);
+    font-size:var(--ft-size);
+}
+/* The card */
+
+.container {
+	background-color: white;
+	border: 1px solid var(--primary-grey);
+	max-width: 25rem;
+	padding: 25px;
+   
+}
+.img {
+  width:100%;  
+}
+.author-img,
+h4 {
+    display:inline;
+}
+.author-img {
+    width:40px;
+}
