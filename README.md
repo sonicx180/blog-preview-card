@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/sonicx180/blog-preview-card-main/](https://github.com/sonicx180/blog-preview-card-main/)
+- Solution URL: [https://github.com/sonicx180/blog-preview-card/](https://github.com/sonicx180/blog-preview-card/)
 - Live Site URL: [https://sonicx180.github.io/blog-preview-card](https://sonicx180.github.io/blog-preview-card)
 
 ## My process
