@@ -90,3 +90,9 @@ p {
 footer {
 	margin-top: 10px;
 }
+
+/* Hover effect */
+h1:hover {
+	color:var(--color-ylw);
+	cursor:pointer;
+}
